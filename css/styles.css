@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Maglonyfreeversion-Regular';
+    font-size: 25px;
+    color: white; 
+}
+
+.image {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Maglonyfreeversion-Regular';
+    src: url('../Fonts/Maglonyfreeversion-Regular.ttf');
+}
+
+/* if you'd like a different font, feel free to download your own! */
+
+/* you can add your own color gradient using cssgradient.io --- I provided an example.
+You can also choose to do an image for your background */
+
+body {
+    /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+    background-image: url('../images/bckgimageplaceholder.png');
+    background-size: cover;
+}
